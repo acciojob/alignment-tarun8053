@@ -1,1 +1,47 @@
-/*  your css code here. If applicable */
+/* General Table Styling */
+table {
+    border: 1px solid black;
+    border-spacing: 1px;
+    padding: 1px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Center alignment for heading */
+h1 {
+    text-align: center;
+}
+
+/* Class for centering all tables */
+.middle {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+/* Alignment classes */
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Background color classes */
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+/* Optional: Center image inside table cell */
+#t-image {
+    text-align: center;
+}

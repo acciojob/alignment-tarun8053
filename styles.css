@@ -9,6 +9,9 @@ td, th {
     border: 1px solid black;
     padding: 5px;
 }
+table-1{
+	border:1px solid rgb(0, 0, 0);
+}
 
 /* Center alignment for heading */
 h1 {

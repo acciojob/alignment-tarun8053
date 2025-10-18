@@ -1,56 +1,59 @@
 /* General Table Styling */
 table {
-    border: 1px solid black;
-    border-spacing: 1px;
-    padding: 1px;
+  border: 1px solid black;
+  border-spacing: 1px;
+  padding: 1px;
 }
 
 td, th {
-    border: 1px solid black;
-    padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
 }
-table-1{
-	border:1px solid rgb(0, 0, 0);
+
+/* Specific table 1 border fix */
+#table-1 {
+  border: 1px solid rgb(0, 0, 0);
 }
 
 /* Center alignment for heading */
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Class for centering all tables */
 .middle {
-    margin: 10px auto;
-    border-collapse: collapse;
+  margin: 10px auto;
+  border-collapse: collapse;
+  width: 500px;
 }
 
 /* Alignment classes */
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
+
 
 /* Background color classes */
 .green {
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }
 
 .blue {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
-/* Optional: Center image inside table cell */
+/* Image centering */
 #t-image {
-    text-align: center;
+  text-align: center;
 }
-#table-2 td{
-	padding:10px;
+
+#table-2 td {
+  padding: 10px;
 }
-.middle{
-	width:500px
-}
+

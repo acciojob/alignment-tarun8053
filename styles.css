@@ -1,23 +1,18 @@
 /* General Table Styling */
-table {
+table, th, td {
   border: 1px solid rgb(0, 0, 0);
   border-collapse: collapse;
-  border-spacing: 1px;
+  border-spacing: 0;   /* must be 0 for proper computed border */
   padding: 1px;
 }
 
-td, th {
-  border: 1px solid black;
-  padding: 5px;
-}
-
-/* Force Table 1 border to render */
+/* Force Table 1 border to render for Cypress */
 #table-1 {
-  
-  border: 1px solid rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
   border-collapse: collapse;
 }
-
 
 /* Center alignment for heading */
 h1 {
@@ -40,7 +35,6 @@ h1 {
   text-align: right;
 }
 
-
 /* Background color classes */
 .green {
   background-color: green;
@@ -57,7 +51,7 @@ h1 {
   text-align: center;
 }
 
+/* Table 2 padding adjustment */
 #table-2 td {
   padding: 10px;
 }
-
